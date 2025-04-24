@@ -1,0 +1,8 @@
+from django.contrib import admin
+from .models import Department, Employee, Attendance, Performance, Project
+
+admin.site.register(Department)
+admin.site.register(Employee)
+admin.site.register(Attendance)
+admin.site.register(Performance)
+admin.site.register(Project)
